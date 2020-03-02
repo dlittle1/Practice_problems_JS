@@ -4,7 +4,6 @@ function combined(arr){
    let total = 0;
    for (let i = 0; i < arr.length; i++){
       for (let j = 0; j < 3; j++){
-         //this is an = 8
          if ((j + i) >= arr.length){
             return newArr
          }
